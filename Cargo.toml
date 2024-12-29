@@ -1,0 +1,8 @@
+[package]
+name = "RC-free-region"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fltk = { version = "1", features = ["fltk-bundled"] }
+ctrlc = "3"
